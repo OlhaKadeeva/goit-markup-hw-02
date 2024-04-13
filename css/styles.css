@@ -10,3 +10,39 @@ a {
 button {
   cursor: pointer;
 }
+
+/* ====MAIN STYLES==== */
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* ====HEADER==== */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo span {
+  color: #4d5ae5;
+}
+.header_logo {
+  color: #2e2f42;
+}
+
+.navigation_list_link {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.navigation_list_link:hover,
+.navigation_list_link:focus,
+.address_list_link:hover,
+.address_list_link:focus {
+  color: #404bbf;
+}

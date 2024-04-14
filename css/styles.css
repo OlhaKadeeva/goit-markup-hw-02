@@ -49,7 +49,7 @@ body {
 .header {
   color: #2e2f42;
 }
-.header_logo span {
+.header_logo_span {
   color: #2e2f42;
 }
 .navigation_list_link {
@@ -111,12 +111,15 @@ body {
 }
 
 /* ====4-PORTFOLIO=========================== */
+.portfolio_title {
+  line-height: 1.11;
+}
 
 /* ====FOOTER============================== */
 .footer {
   background: #2e2f42;
   color: #f4f4fd;
 }
-.footer_logo span {
+.footer_logo_span {
   color: #f4f4fd;
 }
